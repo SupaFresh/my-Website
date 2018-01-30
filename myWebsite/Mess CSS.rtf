@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0  .thumbnail \{\
+	position: relative;\
+    top: 50%;\
+    left: 50%;\
+    \
+    width: 50%;\
+    height: 50%;\
+    \
+    -webkit-transform: translate(-50%,-50%); /* Safari and Chrome */\
+    -moz-transform: translate(-50%,-50%); /* Firefox */\
+    -ms-transform: translate(-50%,-50%); /* IE 9 */\
+    -o-transform: translate(-50%,-50%); /* Opera */\
+    transform: translate(-50%,-50%);\
+	z-index: 0 !important;\
+	display: initial;\
+\}\
+\
+.image \{\
+    width: 100%;\
+    height: 100%;   \
+	display: initial;\
+\}\
+\
+.image img \{\
+    -webkit-transition: all 1s ease; /* Safari and Chrome */\
+  	-moz-transition: all 1s ease; /* Firefox */\
+  	-o-transition: all 1s ease; /* IE 9 */\
+  	-ms-transition: all 1s ease; /* Opera */\
+  	transition: all 1s ease;\
+\}\
+\
+.thumbnail:hover img \{\
+	z-index:100 !important;\
+    -webkit-transform:scale(1.10); /* Safari and Chrome */\
+    -moz-transform:scale(1.10); /* Firefox */\
+    -ms-transform:scale(1.10); /* IE 9 */\
+    -o-transform:scale(1.10); /* Opera */\
+     transform:scale(1.10);\
+\}\
+\
+.thumbnail:not(:hover) img \{\
+	z-index:0 !important;\
+\}\
+\
+.section \{\
+	overflow: scroll;\
+\}\
+}
