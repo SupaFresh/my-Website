@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-Header {
+.header {
 	text-align: center;
 }
 
@@ -20,3 +20,11 @@ th {
 tr {
 	text-align: center;
 }
+
+.content {
+	text-align: center;
+}
+
+
+
+
