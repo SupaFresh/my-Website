@@ -4,15 +4,15 @@
 <meta charset="UTF-8">
 <title>Ben's Awesome Website</title>
 <script src="javascript/myWebsite.js"></script>
+<link rel="stylesheet" type="text/css" href="css/myWebsite.css">
 </head>
 
 <body>
     <header>
-        <a href="videopage.html">Videos</a>
-        <a href="meme_pictures.html">Memes</a>
-        <a href="music.html">My Music</a>
-        <a href="blog.html">Blog</a>
-        <a href="wtf.html">Sector 5</a>
+        <a href="videopage.html" class="tiptop">Videos</a>
+        <a href="meme_pictures.html" class="tiptop">Memes</a>
+        <a href="music.html" class="tiptop">My Music</a>
+        <a href="blog.html" class="tiptop">Blog</a>
     </header>
     
 	<center><h1>Ben's Website</h1></center>
@@ -24,10 +24,13 @@
     <center><p>Okay now lets get down to buisness</p></center>
 </body>
 <body>
+
 	<center><h3>Other pages of the website</h3></center>
     <center><p>Got them right here baby!<br>Just Kidding! I created a header so now they're at the top of the website!<br>Pretty cool huh?</p></center>
-    <footer>
-    	<p id="hello" onmouseover="changeText1()" onmouseout="changeText1R()">why hello there</p>
-    </footer>
+    
 </body>
+<footer>
+    <p id="hello" onmouseover="changeText1()" onmouseout="changeText1R()" onclick="gotodat()">why hello there</p>
+</footer>
+
 </html>

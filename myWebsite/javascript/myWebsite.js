@@ -5,3 +5,7 @@ function changeText1() {
 function changeText1R() {
 	document.getElementById("hello").innerHTML="why hello there";
 }
+
+function gotonow() {
+	window.location.replace('wtf.html');
+}
