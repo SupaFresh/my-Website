@@ -1,3 +1,4 @@
 # my-Website
-its my website i guess. For the record this repository is just for me to organize my website changes.
-It's not really intended for use by other people.
+My personal website for sharing my projects, videos, music, memes, or
+anything else I want! Feel free to take a look.
+
